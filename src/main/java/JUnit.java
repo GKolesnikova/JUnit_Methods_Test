@@ -6,7 +6,7 @@ public class JUnit {
         int sum = addieren( number1, number2 );
         System.out.println(" Die Summe: " + sum);
         // Master & Branch2
-        
+
         boolean relault = comparison(number1);
         System.out.println("Das Ergebnis ist: " + relault);
     }
