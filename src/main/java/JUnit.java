@@ -5,6 +5,7 @@ public class JUnit {
 
         int sum = addieren( number1, number2 );
         System.out.println(" Die Summe: " + sum);
+        // Master
 
         boolean relault = comparison(number1);
         System.out.println("Das Ergebnis ist: " + relault);
@@ -14,11 +15,6 @@ public class JUnit {
     }
 
     public static boolean comparison(int x) {
-        if (x > 100 ){
-            return true;
-        } else {
-           return false;
-        }
+       return x > 100;
     }
-
 }
