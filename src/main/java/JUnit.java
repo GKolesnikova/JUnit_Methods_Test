@@ -5,8 +5,8 @@ public class JUnit {
 
         int sum = addieren( number1, number2 );
         System.out.println(" Die Summe: " + sum);
-        // Master
-
+        // Master & Branch2
+        
         boolean relault = comparison(number1);
         System.out.println("Das Ergebnis ist: " + relault);
     }
@@ -15,6 +15,7 @@ public class JUnit {
     }
 
     public static boolean comparison(int x) {
-       return x > 100;
+        return x > 100;
+
     }
 }
